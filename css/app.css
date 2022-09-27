@@ -54,6 +54,12 @@ main {
     justify-content: center;
 }
 
+.product-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (min-width: 996px) {
     .imagen-format-clientes img{
     width: 350px;
@@ -127,7 +133,16 @@ main {
   position: absolute;
   right: 10%;
 }
+
+.card-imagen {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 .card-imagen img {
-  width: 500px;
-  height: 450px;
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  margin-top: 10px;
 }
